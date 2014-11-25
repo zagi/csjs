@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>csjs. JavaScript test 1.</title>
+    </head>
+    <body>
+        <script>
+            //javascript solution
+            var name = prompt("Enter your name:");
+            
+            try
+            {
+                if( name == "James" || name == "John")
+                {
+                    throw("You're not welcome. So sad :<");
+                }
+                else
+                {
+                    document.write("Hello " + name + ". Have a nice day! :>");   
+                }
+            }
+            catch( e )
+            {
+                document.write( e );   
+            }
+        </script>
+    </body>
+</html>
